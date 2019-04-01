@@ -9,7 +9,7 @@ import javax.validation.constraints.Size;
 
 public class Items {
 	private Integer id;
-    @Size(min=1,max=20,message="{items.name.length.error}")
+  
     private String name;
 
     private Float price;
